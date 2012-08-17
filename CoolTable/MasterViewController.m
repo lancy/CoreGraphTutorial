@@ -27,9 +27,13 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.navigationItem.leftBarButtonItem = self.editButtonItem;
+    
 
-    UIBarButtonItem *addButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(insertNewObject:)];
-    self.navigationItem.rightBarButtonItem = addButton;
+    self.title = @"Core Graphics 101";
+    self.thingsToLearn = [NSMutableArray arrayWithObjects:@"Drawing Rects",
+                          @"Drawing Gradients", @"Drawing Arcs", nil];
+    self.thingsLearned = [NSMutableArray arrayWithObjects:@"Table Views",
+                          @"UIKit", @"Objective-C", nil];
 }
 
 - (void)viewDidUnload
