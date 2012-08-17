@@ -9,4 +9,5 @@
 #import <Foundation/Foundation.h>
 
 void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor, CGColorRef  endColor);
-void draw1PxStroke(CGContextRef context, CGPoint startPoint, CGPoint endPoint, CGColorRef color);
+void drawRect(CGContextRef context, CGRect rect, CGColorRef color, CGFloat width);
+void drawStroke(CGContextRef context, CGPoint startPoint, CGPoint endPoint, CGColorRef color, CGFloat width);
