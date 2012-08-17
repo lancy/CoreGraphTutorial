@@ -10,4 +10,7 @@
 
 @interface MasterViewController : UITableViewController
 
+@property (nonatomic, strong) NSMutableArray *thingsToLearn;
+@property (nonatomic, strong) NSMutableArray *thingsLearned;
+
 @end
