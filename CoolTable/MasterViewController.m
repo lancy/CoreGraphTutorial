@@ -8,7 +8,7 @@
 
 #import "MasterViewController.h"
 #import "CustomCellBackground.h"
-
+#import "CustomHeader.h"
 #import "DetailViewController.h"
 
 @interface MasterViewController () {
@@ -69,6 +69,15 @@
     } else {
         return @"Things Already Covered";
     }
+}
+
+- (UIView *) tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+    CustomHeader *header = [[CustomHeader alloc] init];
+    return header;
+}
+
+-(CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 50;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

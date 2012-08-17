@@ -18,6 +18,7 @@
 		BF60D84C15DE984200C1D249 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF60D84A15DE984200C1D249 /* MainStoryboard.storyboard */; };
 		BF60D84F15DE984200C1D249 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60D84E15DE984200C1D249 /* MasterViewController.m */; };
 		BF60D85215DE984200C1D249 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60D85115DE984200C1D249 /* DetailViewController.m */; };
+		BFD3ED0115DEAE7D00B9322B /* CustomHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD3ED0015DEAE7D00B9322B /* CustomHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		BF60D84E15DE984200C1D249 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		BF60D85015DE984200C1D249 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		BF60D85115DE984200C1D249 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BFD3ECFF15DEAE7D00B9322B /* CustomHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomHeader.h; sourceTree = "<group>"; };
+		BFD3ED0015DEAE7D00B9322B /* CustomHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				BF60D84E15DE984200C1D249 /* MasterViewController.m */,
 				BF42F7C915DEA091009BB1FC /* Common.h */,
 				BF42F7CA15DEA091009BB1FC /* Common.m */,
+				BFD3ECFF15DEAE7D00B9322B /* CustomHeader.h */,
+				BFD3ED0015DEAE7D00B9322B /* CustomHeader.m */,
 				BF42F7C515DE9EB5009BB1FC /* CustomCellBackground.h */,
 				BF42F7C615DE9EB5009BB1FC /* CustomCellBackground.m */,
 				BF60D85015DE984200C1D249 /* DetailViewController.h */,
@@ -182,6 +187,7 @@
 				BF60D85215DE984200C1D249 /* DetailViewController.m in Sources */,
 				BF42F7C715DE9EB5009BB1FC /* CustomCellBackground.m in Sources */,
 				BF42F7CB15DEA091009BB1FC /* Common.m in Sources */,
+				BFD3ED0115DEAE7D00B9322B /* CustomHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
