@@ -40,6 +40,8 @@
 {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
+    [self setThingsLearned:nil];
+    [self setThingsToLearn:nil];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -47,34 +49,43 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (void)insertNewObject:(id)sender
-{
-    if (!_objects) {
-        _objects = [[NSMutableArray alloc] init];
-    }
-    [_objects insertObject:[NSDate date] atIndex:0];
-    NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
-    [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
-}
-
 #pragma mark - Table View
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-    return 1;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return _objects.count;
+    if (section == 0) {
+        return [self.thingsToLearn count];
+    }
+    else {
+        return [self.thingsLearned count];
+    }
+}
+
+- (NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    if (section == 0) {
+        return @"Things We'll Learn";
+    } else {
+        return @"Things Already Covered";
+    }
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
 
-    NSDate *object = [_objects objectAtIndex:indexPath.row];
-    cell.textLabel.text = [object description];
+    NSString *entry;
+    if (indexPath.section == 0) {
+        entry = [_thingsToLearn objectAtIndex:indexPath.row];
+    } else {
+        entry = [_thingsLearned objectAtIndex:indexPath.row];
+    }
+    cell.textLabel.text = entry;
+    
     return cell;
 }
 
