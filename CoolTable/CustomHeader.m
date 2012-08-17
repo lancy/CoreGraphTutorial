@@ -7,6 +7,7 @@
 //
 
 #import "CustomHeader.h"
+#import "Common.h"
 
 @interface CustomHeader()
 
@@ -80,6 +81,10 @@
     CGContextFillRect(context, _coloredBoxRect);
     CGContextRestoreGState(context);
     
+    drawGlossAndGradient(context, _coloredBoxRect, lightColor, darkColor);
+    
+    // Draw stroke
+    drawRect(context, _coloredBoxRect, darkColor, 1.0);    
 }
 
 
