@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF42F7C715DE9EB5009BB1FC /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42F7C615DE9EB5009BB1FC /* CustomCellBackground.m */; };
+		BF42F7CB15DEA091009BB1FC /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = BF42F7CA15DEA091009BB1FC /* Common.m */; };
 		BF60D83915DE984200C1D249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF60D83815DE984200C1D249 /* UIKit.framework */; };
 		BF60D83B15DE984200C1D249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF60D83A15DE984200C1D249 /* Foundation.framework */; };
 		BF60D83D15DE984200C1D249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF60D83C15DE984200C1D249 /* CoreGraphics.framework */; };
@@ -19,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF42F7C515DE9EB5009BB1FC /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		BF42F7C615DE9EB5009BB1FC /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		BF42F7C915DEA091009BB1FC /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		BF42F7CA15DEA091009BB1FC /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
 		BF60D83415DE984200C1D249 /* CoolTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF60D83815DE984200C1D249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF60D83A15DE984200C1D249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -85,6 +91,10 @@
 				BF60D84A15DE984200C1D249 /* MainStoryboard.storyboard */,
 				BF60D84D15DE984200C1D249 /* MasterViewController.h */,
 				BF60D84E15DE984200C1D249 /* MasterViewController.m */,
+				BF42F7C915DEA091009BB1FC /* Common.h */,
+				BF42F7CA15DEA091009BB1FC /* Common.m */,
+				BF42F7C515DE9EB5009BB1FC /* CustomCellBackground.h */,
+				BF42F7C615DE9EB5009BB1FC /* CustomCellBackground.m */,
 				BF60D85015DE984200C1D249 /* DetailViewController.h */,
 				BF60D85115DE984200C1D249 /* DetailViewController.m */,
 				BF60D83F15DE984200C1D249 /* Supporting Files */,
@@ -170,6 +180,8 @@
 				BF60D84915DE984200C1D249 /* AppDelegate.m in Sources */,
 				BF60D84F15DE984200C1D249 /* MasterViewController.m in Sources */,
 				BF60D85215DE984200C1D249 /* DetailViewController.m in Sources */,
+				BF42F7C715DE9EB5009BB1FC /* CustomCellBackground.m in Sources */,
+				BF42F7CB15DEA091009BB1FC /* Common.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +297,7 @@
 				BF60D85715DE984200C1D249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

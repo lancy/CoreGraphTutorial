@@ -7,6 +7,7 @@
 //
 
 #import "MasterViewController.h"
+#import "CustomCellBackground.h"
 
 #import "DetailViewController.h"
 
@@ -17,23 +18,19 @@
 
 @implementation MasterViewController
 
-- (void)awakeFromNib
-{
-    [super awakeFromNib];
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    self.navigationItem.leftBarButtonItem = self.editButtonItem;
     
+    
+	// Do any additional setup after loading the view, typically from a nib.
 
     self.title = @"Core Graphics 101";
     self.thingsToLearn = [NSMutableArray arrayWithObjects:@"Drawing Rects",
                           @"Drawing Gradients", @"Drawing Arcs", nil];
     self.thingsLearned = [NSMutableArray arrayWithObjects:@"Table Views",
                           @"UIKit", @"Objective-C", nil];
+    
 }
 
 - (void)viewDidUnload
@@ -77,6 +74,9 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    
+    cell.backgroundView = [[CustomCellBackground alloc] init];
+    cell.selectedBackgroundView = [[CustomCellBackground alloc] init];
 
     NSString *entry;
     if (indexPath.section == 0) {
@@ -95,15 +95,6 @@
     return YES;
 }
 
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        [_objects removeObjectAtIndex:indexPath.row];
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }
-}
 
 /*
 // Override to support rearranging the table view.
