@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF60D83915DE984200C1D249 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF60D83815DE984200C1D249 /* UIKit.framework */; };
+		BF60D83B15DE984200C1D249 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF60D83A15DE984200C1D249 /* Foundation.framework */; };
+		BF60D83D15DE984200C1D249 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF60D83C15DE984200C1D249 /* CoreGraphics.framework */; };
+		BF60D84315DE984200C1D249 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF60D84115DE984200C1D249 /* InfoPlist.strings */; };
+		BF60D84515DE984200C1D249 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60D84415DE984200C1D249 /* main.m */; };
+		BF60D84915DE984200C1D249 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60D84815DE984200C1D249 /* AppDelegate.m */; };
+		BF60D84C15DE984200C1D249 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF60D84A15DE984200C1D249 /* MainStoryboard.storyboard */; };
+		BF60D84F15DE984200C1D249 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60D84E15DE984200C1D249 /* MasterViewController.m */; };
+		BF60D85215DE984200C1D249 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF60D85115DE984200C1D249 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF60D83415DE984200C1D249 /* CoolTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF60D83815DE984200C1D249 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF60D83A15DE984200C1D249 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF60D83C15DE984200C1D249 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF60D84015DE984200C1D249 /* CoolTable-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CoolTable-Info.plist"; sourceTree = "<group>"; };
+		BF60D84215DE984200C1D249 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BF60D84415DE984200C1D249 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF60D84615DE984200C1D249 /* CoolTable-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoolTable-Prefix.pch"; sourceTree = "<group>"; };
+		BF60D84715DE984200C1D249 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF60D84815DE984200C1D249 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF60D84B15DE984200C1D249 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF60D84D15DE984200C1D249 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BF60D84E15DE984200C1D249 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BF60D85015DE984200C1D249 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BF60D85115DE984200C1D249 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF60D83115DE984200C1D249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF60D83915DE984200C1D249 /* UIKit.framework in Frameworks */,
+				BF60D83B15DE984200C1D249 /* Foundation.framework in Frameworks */,
+				BF60D83D15DE984200C1D249 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF60D82915DE984200C1D249 = {
+			isa = PBXGroup;
+			children = (
+				BF60D83E15DE984200C1D249 /* CoolTable */,
+				BF60D83715DE984200C1D249 /* Frameworks */,
+				BF60D83515DE984200C1D249 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF60D83515DE984200C1D249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF60D83415DE984200C1D249 /* CoolTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF60D83715DE984200C1D249 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF60D83815DE984200C1D249 /* UIKit.framework */,
+				BF60D83A15DE984200C1D249 /* Foundation.framework */,
+				BF60D83C15DE984200C1D249 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF60D83E15DE984200C1D249 /* CoolTable */ = {
+			isa = PBXGroup;
+			children = (
+				BF60D84715DE984200C1D249 /* AppDelegate.h */,
+				BF60D84815DE984200C1D249 /* AppDelegate.m */,
+				BF60D84A15DE984200C1D249 /* MainStoryboard.storyboard */,
+				BF60D84D15DE984200C1D249 /* MasterViewController.h */,
+				BF60D84E15DE984200C1D249 /* MasterViewController.m */,
+				BF60D85015DE984200C1D249 /* DetailViewController.h */,
+				BF60D85115DE984200C1D249 /* DetailViewController.m */,
+				BF60D83F15DE984200C1D249 /* Supporting Files */,
+			);
+			path = CoolTable;
+			sourceTree = "<group>";
+		};
+		BF60D83F15DE984200C1D249 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BF60D84015DE984200C1D249 /* CoolTable-Info.plist */,
+				BF60D84115DE984200C1D249 /* InfoPlist.strings */,
+				BF60D84415DE984200C1D249 /* main.m */,
+				BF60D84615DE984200C1D249 /* CoolTable-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF60D83315DE984200C1D249 /* CoolTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF60D85515DE984200C1D249 /* Build configuration list for PBXNativeTarget "CoolTable" */;
+			buildPhases = (
+				BF60D83015DE984200C1D249 /* Sources */,
+				BF60D83115DE984200C1D249 /* Frameworks */,
+				BF60D83215DE984200C1D249 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoolTable;
+			productName = CoolTable;
+			productReference = BF60D83415DE984200C1D249 /* CoolTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF60D82B15DE984200C1D249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Lancy;
+			};
+			buildConfigurationList = BF60D82E15DE984200C1D249 /* Build configuration list for PBXProject "CoolTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF60D82915DE984200C1D249;
+			productRefGroup = BF60D83515DE984200C1D249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF60D83315DE984200C1D249 /* CoolTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF60D83215DE984200C1D249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF60D84315DE984200C1D249 /* InfoPlist.strings in Resources */,
+				BF60D84C15DE984200C1D249 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF60D83015DE984200C1D249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF60D84515DE984200C1D249 /* main.m in Sources */,
+				BF60D84915DE984200C1D249 /* AppDelegate.m in Sources */,
+				BF60D84F15DE984200C1D249 /* MasterViewController.m in Sources */,
+				BF60D85215DE984200C1D249 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF60D84115DE984200C1D249 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF60D84215DE984200C1D249 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF60D84A15DE984200C1D249 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF60D84B15DE984200C1D249 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF60D85315DE984200C1D249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF60D85415DE984200C1D249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF60D85615DE984200C1D249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTable/CoolTable-Prefix.pch";
+				INFOPLIST_FILE = "CoolTable/CoolTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BF60D85715DE984200C1D249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CoolTable/CoolTable-Prefix.pch";
+				INFOPLIST_FILE = "CoolTable/CoolTable-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF60D82E15DE984200C1D249 /* Build configuration list for PBXProject "CoolTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF60D85315DE984200C1D249 /* Debug */,
+				BF60D85415DE984200C1D249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF60D85515DE984200C1D249 /* Build configuration list for PBXNativeTarget "CoolTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF60D85615DE984200C1D249 /* Debug */,
+				BF60D85715DE984200C1D249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF60D82B15DE984200C1D249 /* Project object */;
+}
