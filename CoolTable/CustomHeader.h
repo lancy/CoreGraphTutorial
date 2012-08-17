@@ -11,8 +11,8 @@
 @interface CustomHeader : UIView
 
 @property (nonatomic, strong) UILabel *titleLabel;
-@property (nonatomic, weak) UIColor *darkColor;
-@property (nonatomic, weak) UIColor *lightColor;
+@property (nonatomic, strong) UIColor *darkColor;
+@property (nonatomic, strong) UIColor *lightColor;
 @property CGRect coloredBoxRect;
 @property CGRect paperRect;
 @end

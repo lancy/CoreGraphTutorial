@@ -31,12 +31,13 @@
         _titleLabel.shadowColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
         _titleLabel.shadowOffset = CGSizeMake(0, -1);
         [self addSubview:self.titleLabel];
-        self.lightColor = [UIColor lightGrayColor];
-        self.darkColor = [UIColor darkGrayColor];
+        self.lightColor = [UIColor colorWithRed:105.0f/255.0f green:179.0f/255.0f
+                                           blue:216.0f/255.0f alpha:1.0];
+        self.darkColor = [UIColor colorWithRed:21.0/255.0 green:92.0/255.0
+                                          blue:136.0/255.0 alpha:1.0];
     }
     return self;
 }
-
 
 
 - (void) layoutSubviews {
