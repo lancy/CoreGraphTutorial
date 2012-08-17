@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 Lancy. All rights reserved.
 //
 
+// hello
+
 #import <Foundation/Foundation.h>
 
 void drawLinearGradient(CGContextRef context, CGRect rect, CGColorRef startColor, CGColorRef  endColor);
